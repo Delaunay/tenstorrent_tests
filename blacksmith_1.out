@@ -1,0 +1,172 @@
+2026-05-25 13:09:55 | INFO | Initializing Weights & Biases (W&B)...
+2026-05-25 13:09:55 | ERROR | Failed to initialize W&B: No API key configured. Use `wandb login` to log in.
+2026-05-25 13:09:55.551 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:09:55.551 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:09:55.551 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.551 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:09:55.551 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:09:55.552 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.553 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.553 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.651 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:09:55.665 | info     |          Device | Opening user mode device driver (tt_cluster.cpp:225)
+2026-05-25 13:09:55.665 | info     |             UMD | Cluster constructor started. (cluster.cpp:317)
+2026-05-25 13:09:55.665 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:09:55.665 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:09:55.666 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.666 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:09:55.666 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:09:55.666 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.667 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.668 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.767 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:09:55.779 | info     |             UMD | Harvesting masks for Chip 3: Tensix: 0x201 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.817 | info     |             UMD | Harvesting masks for Chip 1: Tensix: 0x220 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.818 | info     |             UMD | Harvesting masks for Chip 2: Tensix: 0x201 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.818 | info     |             UMD | Harvesting masks for Chip 0: Tensix: 0x201 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.819 | info     |             UMD | Harvesting masks for Chip 7: Tensix: 0x201 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.822 | info     |             UMD | Harvesting masks for Chip 6: Tensix: 0x210 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.824 | info     |             UMD | Harvesting masks for Chip 5: Tensix: 0x220 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.827 | info     |             UMD | Harvesting masks for Chip 4: Tensix: 0x300 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:09:55.829 | info     |             UMD | Opening local chip ids/PCIe ids: {0, 1, 2, 3}/[0, 1, 2, 3] and remote chip ids {4, 5, 6, 7} (cluster.cpp:159)
+2026-05-25 13:09:55.829 | info     |             UMD | IOMMU: disabled (cluster.cpp:133)
+2026-05-25 13:09:55.829 | info     |             UMD | KMD version: 2.8.0 (cluster.cpp:136)
+2026-05-25 13:09:55.829 | info     |             UMD | Cluster constructor completed. (cluster.cpp:409)
+2026-05-25 13:09:55.835 | info     |             UMD | Starting devices in cluster (cluster.cpp:1044)
+2026-05-25 13:09:55.836 | info     |             UMD | Mapped hugepage 0x300000000 to NOC address 0x800000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.836 | info     |             UMD | Mapped hugepage 0x2c0000000 to NOC address 0x840000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.837 | info     |             UMD | Mapped hugepage 0x280000000 to NOC address 0x800000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.838 | info     |             UMD | Mapped hugepage 0x240000000 to NOC address 0x840000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.839 | info     |             UMD | Mapped hugepage 0x4280000000 to NOC address 0x800000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.839 | info     |             UMD | Mapped hugepage 0x4240000000 to NOC address 0x840000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.840 | info     |             UMD | Mapped hugepage 0x4200000000 to NOC address 0x800000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.841 | info     |             UMD | Mapped hugepage 0x41c0000000 to NOC address 0x840000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:09:55.844 | info     |             UMD | Starting devices in cluster completed. (cluster.cpp:1052)
+2026-05-25 13:09:55.884 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:332)
+2026-05-25 13:09:55.884 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:394)
+2026-05-25 13:09:55.884 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:09:55.884 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:09:55.885 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.885 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:09:55.885 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:09:55.885 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.886 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.887 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:55.986 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:09:55.999 | warning  |          Fabric | TopologyMapper auto-discovery: Downgrading to mesh shape 2x1 (2 total nodes) for 8 physical chips. Some physical chips may not be used. This may indicate connectivity issues, topology mismatches, or insufficient fabric links between chips. Verify your physical chip connectivity and ensure that the fabric links are correctly configured. (topology_mapper.cpp:1717)
+2026-05-25 13:09:55.999 | info     |          Fabric | TopologyMapper: Logical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1474)
+2026-05-25 13:09:55.999 | info     |          Fabric | 
+=== Logical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:55.999 | info     |          Fabric | 
+=== Logical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:55.999 | info     |          Fabric | TopologyMapper: Physical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1485)
+2026-05-25 13:09:55.999 | info     |          Fabric | 
+=== Physical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:55.999 | info     |          Fabric | 
+=== Physical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 8
+Degree histogram: {1:8}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:55.999 | info     |          Fabric | Starting multi-mesh mapping: 1 logical mesh(es) to 1 physical mesh(es) (topology_mapper_utils.cpp:1469)
+2026-05-25 13:09:55.999 | info     |          Fabric | Multi-mesh mapping attempt 1/2: Trying inter-mesh mapping (topology_mapper_utils.cpp:1510)
+2026-05-25 13:09:55.999 | info     |          Fabric | Attempt 1: Inter-mesh mapping succeeded, found 1 mesh pair(s) (topology_mapper_utils.cpp:1539)
+2026-05-25 13:09:55.999 | info     |          Fabric | Attempt 1: Mapping 1 mesh pair(s) (topology_mapper_utils.cpp:1547)
+2026-05-25 13:09:55.999 | info     |          Fabric | Attempt 1: Mapping mesh 0 -> 0 (topology_mapper_utils.cpp:1554)
+2026-05-25 13:09:55.999 | info     |          Fabric | Multi-mesh mapping succeeded after 1 attempt(s): 1 mesh pair(s) mapped (topology_mapper_utils.cpp:1686)
+2026-05-25 13:09:56.038 | info     |           Metal | While initializing device 0, active ethernet dispatch core 21-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.038 | info     |           Metal | While initializing device 0, active ethernet dispatch core 18-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.038 | info     |           Metal | While initializing device 0, active ethernet dispatch core 25-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.038 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-17 (assert.hpp:104)
+2026-05-25 13:09:56.082 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.084 | info     |           Metal | While initializing device 1, active ethernet dispatch core 21-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.085 | info     |           Metal | While initializing device 1, active ethernet dispatch core 18-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.085 | info     |           Metal | While initializing device 1, active ethernet dispatch core 25-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.085 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-17 (assert.hpp:104)
+2026-05-25 13:09:56.127 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.129 | info     |           Metal | While initializing device 2, active ethernet dispatch core 21-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.129 | info     |           Metal | While initializing device 2, active ethernet dispatch core 18-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.130 | info     |           Metal | While initializing device 2, active ethernet dispatch core 25-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.130 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-17 (assert.hpp:104)
+2026-05-25 13:09:56.171 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.174 | info     |           Metal | While initializing device 3, active ethernet dispatch core 21-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.174 | info     |           Metal | While initializing device 3, active ethernet dispatch core 18-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.174 | info     |           Metal | While initializing device 3, active ethernet dispatch core 25-17 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.174 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-17 (assert.hpp:104)
+2026-05-25 13:09:56.216 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.218 | info     |           Metal | While initializing device 4, active ethernet dispatch core 18-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.218 | info     |           Metal | While initializing device 4, active ethernet dispatch core 25-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.218 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-16 (assert.hpp:104)
+2026-05-25 13:09:56.260 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.315 | info     |           Metal | While initializing device 5, active ethernet dispatch core 18-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.316 | info     |           Metal | While initializing device 5, active ethernet dispatch core 25-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.316 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-16 (assert.hpp:104)
+2026-05-25 13:09:56.358 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.372 | info     |           Metal | While initializing device 6, active ethernet dispatch core 18-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.372 | info     |           Metal | While initializing device 6, active ethernet dispatch core 25-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.372 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-16 (assert.hpp:104)
+2026-05-25 13:09:56.415 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.431 | info     |           Metal | While initializing device 7, active ethernet dispatch core 18-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.431 | info     |           Metal | While initializing device 7, active ethernet dispatch core 25-16 detected as still running, issuing exit signal. (risc_firmware_initializer.cpp:395)
+2026-05-25 13:09:56.431 | critical |          Always | TT_FATAL: Read unexpected run_mailbox value from core 25-16 (assert.hpp:104)
+2026-05-25 13:09:56.474 | warning  |          Always | Detected dispatch kernels still running but failed to complete an early exit. This may happen from time to time following a reset, continuing to FW initialization... (risc_firmware_initializer.cpp:415)
+2026-05-25 13:09:56.488 | info     |           Metal | Fabric config changed from FabricConfig::DISABLED to FabricConfig::FABRIC_1D, reinitializing control plane (metal_env.cpp:257)
+2026-05-25 13:09:56.488 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:332)
+2026-05-25 13:09:56.488 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:394)
+2026-05-25 13:09:56.489 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:09:56.489 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:09:56.489 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:56.490 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:09:56.490 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:09:56.490 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:56.491 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:56.492 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:09:56.590 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:09:56.604 | warning  |          Fabric | TopologyMapper auto-discovery: Downgrading to mesh shape 2x1 (2 total nodes) for 8 physical chips. Some physical chips may not be used. This may indicate connectivity issues, topology mismatches, or insufficient fabric links between chips. Verify your physical chip connectivity and ensure that the fabric links are correctly configured. (topology_mapper.cpp:1717)
+2026-05-25 13:09:56.604 | info     |          Fabric | TopologyMapper: Logical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1474)
+2026-05-25 13:09:56.604 | info     |          Fabric | 
+=== Logical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:56.604 | info     |          Fabric | 
+=== Logical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:56.604 | info     |          Fabric | TopologyMapper: Physical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1485)
+2026-05-25 13:09:56.604 | info     |          Fabric | 
+=== Physical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:56.604 | info     |          Fabric | 
+=== Physical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 8
+Degree histogram: {1:8}
+ (topology_solver.tpp:94)
+2026-05-25 13:09:56.604 | info     |          Fabric | Starting multi-mesh mapping: 1 logical mesh(es) to 1 physical mesh(es) (topology_mapper_utils.cpp:1469)
+2026-05-25 13:09:56.604 | info     |          Fabric | Multi-mesh mapping attempt 1/2: Trying inter-mesh mapping (topology_mapper_utils.cpp:1510)
+2026-05-25 13:09:56.604 | info     |          Fabric | Attempt 1: Inter-mesh mapping succeeded, found 1 mesh pair(s) (topology_mapper_utils.cpp:1539)
+2026-05-25 13:09:56.604 | info     |          Fabric | Attempt 1: Mapping 1 mesh pair(s) (topology_mapper_utils.cpp:1547)
+2026-05-25 13:09:56.604 | info     |          Fabric | Attempt 1: Mapping mesh 0 -> 0 (topology_mapper_utils.cpp:1554)
+2026-05-25 13:09:56.604 | info     |          Fabric | Multi-mesh mapping succeeded after 1 attempt(s): 1 mesh pair(s) mapped (topology_mapper_utils.cpp:1686)
+2026-05-25 13:09:56.604 | info     |           Metal | Enabling FabricConfig::FABRIC_1D only for dispatch. If your workload requires fabric, please set the fabric config accordingly. (device_manager.cpp:288)
+2026-05-25 13:09:56.604 | info     |           Metal | Dispatch on FabricConfig::FABRIC_1D with 1 Command Queues
+ (device_manager.cpp:296)
+2026-05-25 13:09:56.612 | info     |           Metal | Initializing Fabric (fabric_firmware_initializer.cpp:287)
+2026-05-25 13:09:56.631 | critical |          Always | TT_FATAL: Physical chip id 2 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology (assert.hpp:104)
+2026-05-25 13:09:56.631 | critical |          Always | TT_FATAL: Physical chip id 1 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology (assert.hpp:104)
+2026-05-25 13:09:56.631 | critical |          Always | TT_FATAL: Physical chip id 3 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology (assert.hpp:104)
+2026-05-25 13:09:56.632 | critical |          Always | TT_FATAL: Physical chip id 6 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology (assert.hpp:104)
+2026-05-25 13:09:56.632 | critical |          Always | TT_FATAL: Physical chip id 5 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology (assert.hpp:104)
+2026-05-25 13:09:56.632 | critical |          Always | TT_FATAL: Physical chip id 7 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology (assert.hpp:104)
+2026-05-25 13:09:56.639 | info     |           Metal | Fabric initialized on Device 0 (device.cpp:413)

@@ -1,0 +1,89 @@
+2026-05-25 13:09:53.832 | WARNING  | torch_plugin_tt:__init__:40 - TT plugin is setting XLA_STABLEHLO_COMPILE to 1. This is required for TT PJRT plugin to work correctly.
+WARNING:blacksmith.tools.reproducibility_manager:Unknown framework: pytorch
+INFO:mnist_single_chip:Initializing Weights & Biases (W&B)...
+ERROR:mnist_single_chip:Failed to initialize W&B: No API key configured. Use `wandb login` to log in.
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Read unexpected run_mailbox value: 0x40 (expected 0x80 or 0x0)
+Traceback (most recent call last):
+  File "/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/blacksmith/experiments/torch/mnist/train.py", line 192, in <module>
+    device_manager = DeviceManager(config)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/blacksmith/tools/device_manager.py", line 29, in __init__
+    self._setup()
+  File "/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/blacksmith/tools/device_manager.py", line 37, in _setup
+    self.device = torch_xla.device()
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/torch_xla/torch_xla.py", line 40, in device
+    return torch.device(torch_xla._XLAC._xla_get_default_device())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: TT_FATAL @ /project/third_party/tt-mlir/src/tt-mlir/third_party/tt-metal/src/tt-metal/tt_metal/fabric/control_plane.cpp:1264: false
+info:
+Physical chip id 1 not found in control plane chip mapping. You are calling for a chip outside of the fabric cluster. Check that your mesh graph descriptor specifies the correct topology
+backtrace:
+ --- void tt::assert::detail::tt_throw_impl<fmt::v11::fstring<int const&>, int>(char const*, int, char const*, char const*, fmt::v11::fstring<int const&> const&, int const&)
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0xa0c28a) [0x7f0407b3628a]
+ --- tt::tt_fabric::FabricBuilder::FabricBuilder(tt::tt_metal::IDevice*, tt::tt_metal::Program&, tt::tt_fabric::FabricContext&)
+ --- tt::tt_fabric::create_and_compile_tt_fabric_program(tt::tt_metal::IDevice*)
+ --- tt::tt_fabric::create_and_compile_fabric_program(tt::tt_metal::IDevice*)
+ --- tt::tt_metal::Device::compile_fabric()
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x6e551c) [0x7f040780f51c]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x436b4f) [0x7f0407560b4f]
+ --- /lib/x86_64-linux-gnu/libc.so.6(+0x99ee8) [0x7f050a0cbee8]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x4369a9) [0x7f04075609a9]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x6e536e) [0x7f040780f36e]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x5b8715) [0x7f04076e2715]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x5b7220) [0x7f04076e1220]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x5b6708) [0x7f04076e0708]
+ --- /lib/x86_64-linux-gnu/libstdc++.so.6(+0xdc253) [0x7f04f2c9e253]
+ --- /lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7f050a0c6ac3]
+ --- /lib/x86_64-linux-gnu/libc.so.6(+0x1268d0) [0x7f050a1588d0]
+
+F0525 13:09:56.699946   60921 runtime.cpp:22] Check failed: !g_computation_client_initialized InitializeComputationClient() can only be called once.
+*** Check failure stack trace: ***
+    @     0x7f04994e6dd8  absl::lts_20230802::log_internal::LogMessage::SendToLog()
+    @     0x7f04994e7479  absl::lts_20230802::log_internal::LogMessageFatal::~LogMessageFatal()
+    @     0x7f048dff0a52  torch_xla::runtime::GetComputationClient()
+    @     0x7f048eb0d3e0  torch_xla::runtime::GetComputationClientOrDie()
+    @     0x7f048e5a0201  torch_xla::(anonymous namespace)::PrepareToExit()
+    @     0x7f048e598e8a  pybind11::cpp_function::initialize<>()::{lambda()#3}::_FUN()
+    @     0x7f048e5d0ce2  pybind11::cpp_function::dispatcher()
+    @          0x18262ff  cfunction_call
+    @          0x1815ee8  _PyEval_EvalFrameDefault
+    @          0x1ad68ff  atexit_callfuncs.llvm.9450642270383810775.warm
+    @          0x190e896  Py_FinalizeEx
+    @          0x198c54c  Py_RunMain
+    @          0x198c198  pymain_main.llvm.11489439184168853189
+    @          0x198bfac  main
+    @     0x7f050a05bd90  (unknown)
+[dn-a002:60921] *** Process received signal ***
+[dn-a002:60921] Signal: Aborted (6)
+[dn-a002:60921] Signal code:  (-6)
+[dn-a002:60921] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f050a074520]
+[dn-a002:60921] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f050a0c89fc]
+[dn-a002:60921] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f050a074476]
+[dn-a002:60921] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f050a05a7f3]
+[dn-a002:60921] [ 4] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(_ZN4absl12lts_2023080212log_internal10LogMessage21FailWithoutStackTraceEv+0x22)[0x7f04994e6272]
+[dn-a002:60921] [ 5] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(+0x11a13d6d)[0x7f04994e6d6d]
+[dn-a002:60921] [ 6] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(_ZN4absl12lts_2023080212log_internal15LogMessageFatalD1Ev+0x9)[0x7f04994e7479]
+[dn-a002:60921] [ 7] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(+0x651da52)[0x7f048dff0a52]
+[dn-a002:60921] [ 8] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(_ZN9torch_xla7runtime25GetComputationClientOrDieEv+0x10)[0x7f048eb0d3e0]
+[dn-a002:60921] [ 9] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(+0x6acd201)[0x7f048e5a0201]
+[dn-a002:60921] [10] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(+0x6ac5e8a)[0x7f048e598e8a]
+[dn-a002:60921] [11] /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so(+0x6afdce2)[0x7f048e5d0ce2]
+[dn-a002:60921] [12] python[0x18262ff]
+[dn-a002:60921] [13] python(_PyEval_EvalFrameDefault+0x2fa8)[0x1815ee8]
+[dn-a002:60921] [14] python[0x1ad68ff]
+[dn-a002:60921] [15] python(Py_FinalizeEx+0x56)[0x190e896]
+[dn-a002:60921] [16] python(Py_RunMain+0x38c)[0x198c54c]
+[dn-a002:60921] [17] python[0x198c198]
+[dn-a002:60921] [18] python[0x198bfac]
+[dn-a002:60921] [19] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f050a05bd90]
+[dn-a002:60921] [20] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f050a05be40]
+[dn-a002:60921] [21] python(_start+0x29)[0x19a9269]
+[dn-a002:60921] *** End of error message ***

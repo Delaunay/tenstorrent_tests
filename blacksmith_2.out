@@ -1,0 +1,425 @@
+2026-05-25 13:13:33 | INFO | Initializing Weights & Biases (W&B)...
+2026-05-25 13:13:33 | ERROR | Failed to initialize W&B: No API key configured. Use `wandb login` to log in.
+2026-05-25 13:13:33.808 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:13:33.808 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:13:33.809 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:13:33.809 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:13:33.809 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:13:33.819 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:13:33.820 | info     |          Device | Opening user mode device driver (tt_cluster.cpp:225)
+2026-05-25 13:13:33.820 | info     |             UMD | Cluster constructor started. (cluster.cpp:317)
+2026-05-25 13:13:33.821 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:13:33.821 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:13:33.821 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:13:33.822 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:13:33.822 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:13:33.830 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:13:33.832 | info     |             UMD | Harvesting masks for Chip 0: Tensix: 0x201 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:13:33.871 | info     |             UMD | Harvesting masks for Chip 1: Tensix: 0x300 DRAM: 0x0 ETH: 0x0 PCIe: 0x0 L2CPU: 0x0 (cluster.cpp:270)
+2026-05-25 13:13:33.875 | info     |             UMD | Opening local chip ids/PCIe ids: {0}/[0] and remote chip ids {1} (cluster.cpp:159)
+2026-05-25 13:13:33.875 | info     |             UMD | IOMMU: disabled (cluster.cpp:133)
+2026-05-25 13:13:33.875 | info     |             UMD | KMD version: 2.8.0 (cluster.cpp:136)
+2026-05-25 13:13:33.875 | info     |             UMD | Cluster constructor completed. (cluster.cpp:409)
+2026-05-25 13:13:33.876 | info     |             UMD | Starting devices in cluster (cluster.cpp:1044)
+2026-05-25 13:13:33.877 | info     |             UMD | Mapped hugepage 0x300000000 to NOC address 0x800000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:13:33.877 | info     |             UMD | Mapped hugepage 0x2c0000000 to NOC address 0x840000000 (silicon_sysmem_manager.cpp:275)
+2026-05-25 13:13:33.880 | info     |             UMD | Starting devices in cluster completed. (cluster.cpp:1052)
+2026-05-25 13:13:33.898 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:332)
+2026-05-25 13:13:33.898 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:394)
+2026-05-25 13:13:33.898 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:13:33.898 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:13:33.899 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:13:33.899 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:13:33.899 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:13:33.906 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:13:33.907 | info     |          Fabric | TopologyMapper: Logical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1474)
+2026-05-25 13:13:33.907 | info     |          Fabric | 
+=== Logical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.907 | info     |          Fabric | 
+=== Logical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.907 | info     |          Fabric | TopologyMapper: Physical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1485)
+2026-05-25 13:13:33.907 | info     |          Fabric | 
+=== Physical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.907 | info     |          Fabric | 
+=== Physical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.907 | info     |          Fabric | Starting multi-mesh mapping: 1 logical mesh(es) to 1 physical mesh(es) (topology_mapper_utils.cpp:1469)
+2026-05-25 13:13:33.907 | info     |          Fabric | Multi-mesh mapping attempt 1/2: Trying inter-mesh mapping (topology_mapper_utils.cpp:1510)
+2026-05-25 13:13:33.907 | info     |          Fabric | Attempt 1: Inter-mesh mapping succeeded, found 1 mesh pair(s) (topology_mapper_utils.cpp:1539)
+2026-05-25 13:13:33.907 | info     |          Fabric | Attempt 1: Mapping 1 mesh pair(s) (topology_mapper_utils.cpp:1547)
+2026-05-25 13:13:33.907 | info     |          Fabric | Attempt 1: Mapping mesh 0 -> 0 (topology_mapper_utils.cpp:1554)
+2026-05-25 13:13:33.907 | info     |          Fabric | Multi-mesh mapping succeeded after 1 attempt(s): 1 mesh pair(s) mapped (topology_mapper_utils.cpp:1686)
+2026-05-25 13:13:33.937 | info     |           Metal | Fabric config changed from FabricConfig::DISABLED to FabricConfig::FABRIC_1D, reinitializing control plane (metal_env.cpp:257)
+2026-05-25 13:13:33.937 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:332)
+2026-05-25 13:13:33.937 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:394)
+2026-05-25 13:13:33.937 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:13:33.937 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:13:33.938 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:13:33.938 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:13:33.938 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:13:33.944 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:13:33.945 | info     |          Fabric | TopologyMapper: Logical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1474)
+2026-05-25 13:13:33.945 | info     |          Fabric | 
+=== Logical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.945 | info     |          Fabric | 
+=== Logical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.945 | info     |          Fabric | TopologyMapper: Physical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1485)
+2026-05-25 13:13:33.945 | info     |          Fabric | 
+=== Physical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.945 | info     |          Fabric | 
+=== Physical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:33.945 | info     |          Fabric | Starting multi-mesh mapping: 1 logical mesh(es) to 1 physical mesh(es) (topology_mapper_utils.cpp:1469)
+2026-05-25 13:13:33.945 | info     |          Fabric | Multi-mesh mapping attempt 1/2: Trying inter-mesh mapping (topology_mapper_utils.cpp:1510)
+2026-05-25 13:13:33.945 | info     |          Fabric | Attempt 1: Inter-mesh mapping succeeded, found 1 mesh pair(s) (topology_mapper_utils.cpp:1539)
+2026-05-25 13:13:33.945 | info     |          Fabric | Attempt 1: Mapping 1 mesh pair(s) (topology_mapper_utils.cpp:1547)
+2026-05-25 13:13:33.945 | info     |          Fabric | Attempt 1: Mapping mesh 0 -> 0 (topology_mapper_utils.cpp:1554)
+2026-05-25 13:13:33.945 | info     |          Fabric | Multi-mesh mapping succeeded after 1 attempt(s): 1 mesh pair(s) mapped (topology_mapper_utils.cpp:1686)
+2026-05-25 13:13:33.946 | info     |           Metal | Enabling FabricConfig::FABRIC_1D only for dispatch. If your workload requires fabric, please set the fabric config accordingly. (device_manager.cpp:288)
+2026-05-25 13:13:33.946 | info     |           Metal | Dispatch on FabricConfig::FABRIC_1D with 1 Command Queues
+ (device_manager.cpp:296)
+2026-05-25 13:13:33.951 | info     |           Metal | Initializing Fabric (fabric_firmware_initializer.cpp:287)
+2026-05-25 13:13:33.959 | info     |           Metal | Fabric initialized on Device 0 (device.cpp:413)
+2026-05-25 13:13:33.962 | info     |           Metal | Fabric initialized on Device 1 (device.cpp:413)
+2026-05-25 13:13:33.962 | info     |           Metal | Fabric initialized on 2 devices (fabric_firmware_initializer.cpp:415)
+2026-05-25 13:13:33.962 | info     |           Metal | Fabric Initialized with config FabricConfig::FABRIC_1D (fabric_firmware_initializer.cpp:290)
+2026-05-25 13:13:35.725 | critical |          Always | TT_FATAL: Logical eth core 0-15 is not an active eth core on chip 0. (assert.hpp:104)
+[32m                 Always[0m | [1m[38;5;208m WARNING[0m | Skipping ethernet core (0-15) on chip 0
+2026-05-25 13:13:35.833 | info     |           Metal | Fabric config changed from FabricConfig::FABRIC_1D to FabricConfig::FABRIC_1D_RING, reinitializing control plane (metal_env.cpp:257)
+2026-05-25 13:13:35.833 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:332)
+2026-05-25 13:13:35.833 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:394)
+2026-05-25 13:13:35.833 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:75)
+2026-05-25 13:13:35.833 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:92)
+2026-05-25 13:13:35.834 | warning  |             UMD | Low power mode is disabled while UMD holds open file descriptors. The device will return to low power mode once all file descriptors are closed. (topology_discovery.cpp:143)
+2026-05-25 13:13:35.835 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:544)
+2026-05-25 13:13:35.835 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for wormhole_b0 architecture. Newest features may not be supported. (topology_discovery.cpp:576)
+2026-05-25 13:13:35.841 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:96)
+2026-05-25 13:13:35.842 | info     |          Fabric | TopologyMapper: Logical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1474)
+2026-05-25 13:13:35.843 | info     |          Fabric | 
+=== Logical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:35.843 | info     |          Fabric | 
+=== Logical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:35.843 | info     |          Fabric | TopologyMapper: Physical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1485)
+2026-05-25 13:13:35.843 | info     |          Fabric | 
+=== Physical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:35.843 | info     |          Fabric | 
+=== Physical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 2
+Degree histogram: {1:2}
+ (topology_solver.tpp:94)
+2026-05-25 13:13:35.843 | info     |          Fabric | Starting multi-mesh mapping: 1 logical mesh(es) to 1 physical mesh(es) (topology_mapper_utils.cpp:1469)
+2026-05-25 13:13:35.843 | info     |          Fabric | Multi-mesh mapping attempt 1/2: Trying inter-mesh mapping (topology_mapper_utils.cpp:1510)
+2026-05-25 13:13:35.843 | info     |          Fabric | Attempt 1: Inter-mesh mapping succeeded, found 1 mesh pair(s) (topology_mapper_utils.cpp:1539)
+2026-05-25 13:13:35.843 | info     |          Fabric | Attempt 1: Mapping 1 mesh pair(s) (topology_mapper_utils.cpp:1547)
+2026-05-25 13:13:35.843 | info     |          Fabric | Attempt 1: Mapping mesh 0 -> 0 (topology_mapper_utils.cpp:1554)
+2026-05-25 13:13:35.843 | info     |          Fabric | Multi-mesh mapping succeeded after 1 attempt(s): 1 mesh pair(s) mapped (topology_mapper_utils.cpp:1686)
+2026-05-25 13:13:35.874 | warning  |           Metal | Got num_routing_planes: 1, which is less than current value: 255, ignoring the override (metal_env.cpp:232)
+2026-05-25 13:13:35.874 | info     |           Metal | Dispatch on FabricConfig::FABRIC_1D_RING with 1 Command Queues
+ (device_manager.cpp:296)
+2026-05-25 13:13:35.877 | info     |           Metal | Initializing Fabric (fabric_firmware_initializer.cpp:287)
+2026-05-25 13:13:38.045 | info     |           Metal | Fabric initialized on Device 0 (device.cpp:413)
+2026-05-25 13:13:38.049 | info     |           Metal | Fabric initialized on Device 1 (device.cpp:413)
+2026-05-25 13:13:38.049 | info     |           Metal | Fabric initialized on 2 devices (fabric_firmware_initializer.cpp:415)
+2026-05-25 13:13:38.049 | info     |           Metal | Fabric Initialized with config FabricConfig::FABRIC_1D_RING (fabric_firmware_initializer.cpp:290)
+2026-05-25 13:13:39.778 | info     |           Metal | Enabling program cache on MeshDevice 1 (mesh_device.cpp:999)
+2026-05-25 13:13:39 | INFO | Using device: xla:0
+2026-05-25 13:13:39 | INFO | Starting MNIST training (single chip)
+2026-05-25 13:13:39 | INFO | Loaded MNISTLinear model.
+2026-05-25 13:13:39 | INFO | Model parameters: 668672
+2026-05-25 13:13:39 | INFO | Trainable parameters: 668672
+2026-05-25 13:13:41 | INFO | Train dataset size: 59904, Eval batches: 39
+2026-05-25 13:13:41 | INFO | Starting validation...
+2026-05-25 13:13:42.916 | info     |           Metal | Enabling program cache on MeshDevice 2 (mesh_device.cpp:999)
+2026-05-25 13:13:43.483 | warning  |              Op | On Wormhole with fp32 accumulation, output accuracy can be worse with HiFi4 than HiFi3 due to a hardware bug. Prefer using HiFi3 with fp32 accumulation on Wormhole. (compute_kernel_config.cpp:65)
+2026-05-25 13:13:44.523 | error    |    BuildKernels | trisc0 compile failure -- cmd: cd /home/delaunap/.cache/tt-metal-cache/12318989241770246579/kernels/eltwise_sfpu/9856016290663342714/trisc0/ && /opt/tenstorrent/sfpi/compiler/bin/riscv-tt-elf-g++ -O3 -std=c++17 -ftt-nttp -ftt-constinit -ftt-consteval -flto=auto -ffast-math -fno-exceptions -g -MMD -fno-use-cxa-atexit -Wall -Werror -Wno-error=deprecated-declarations -Wno-error=multistatement-macros -Wno-error=parentheses -Wno-error=unused-but-set-variable -Wno-unused-variable -Wno-unused-function -mcpu=tt-wh-tensix -I. -I.. -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn/cpp -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/common -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hostdevcommon/api -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/api/ -I/opt/tenstorrent/sfpi/include -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/common -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_io -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/internal/tt-1xx -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/internal/tt-1xx/wormhole -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/internal/tt-1xx/wormhole/wormhole_b0_defines -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/internal/tt-1xx/wormhole/noc -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/firmware/src/tt-1xx -I/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/compute -c -o /home/delaunap/.cache/tt-metal-cache/12318989241770246579/kernels/eltwise_sfpu/9856016290663342714/trisc0/trisck.11082261342283354929.o /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/firmware/src/tt-1xx/trisck.cc -MF /home/delaunap/.cache/tt-metal-cache/12318989241770246579/kernels/eltwise_sfpu/9856016290663342714/trisc0/trisck.11082261342283354929.d -DIS_NOT_POW2_NUM_DRAM_BANKS=1 -DLOG_BASE_2_OF_NUM_L1_BANKS=6 -DNUM_DRAM_BANKS=12 -DNUM_L1_BANKS=64 -DPCIE_NOC_X=0 -DPCIE_NOC_Y=3 -DTENSIX_FIRMWARE -DLOCAL_MEM_EN=0 -DROUTING_FW_ENABLED -DPROCESSOR_INDEX=2 -DUCK_CHLKC_UNPACK -DCOMPILE_FOR_TRISC=0 -DARCH_WORMHOLE -DDISPATCH_MESSAGE_ADDR=4290052232 -DKERNEL_BUILD  (build.cpp:58)
+2026-05-25 13:13:44.524 | critical |          Always | TT_THROW: trisc0 build failed. Log: In file included from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:9,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_rpow.h:8,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/llk_math_eltwise_unary_sfpu_rpow.h:9,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/api/compute/eltwise_unary/rpow.h:8,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/compute/eltwise_sfpu.cpp:12,
+                 from ../chlkc_unpack.cpp:3,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/common/chlkc_list.h:26,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/firmware/src/tt-1xx/trisck.cc:13:
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h: In function 'sfpi::vInt _float_to_int32_positive_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h:21:42: error: 'sfpi::MantissaMode' has not been declared
+   21 |         sfpi::vInt man = exman(in, sfpi::MantissaMode::ImplicitOne);
+      |                                          ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h:21:26: error: 'exman' was not declared in this scope; did you mean 'man'?
+   21 |         sfpi::vInt man = exman(in, sfpi::MantissaMode::ImplicitOne);
+      |                          ^~~~~
+      |                          man
+In file included from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:8,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:14,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:11:
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h: In function 'void ckernel::sfpu::_calculate_rsqrt_compat_(int)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:115:25: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  115 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                         ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:115:39: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  115 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                                       ^~~~~~~~~
+      |                                       sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h: In function 'void ckernel::sfpu::_calculate_reciprocal_compat_(int)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:148:25: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  148 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                         ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:148:39: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  148 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                                       ^~~~~~~~~
+      |                                       sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_reciprocal_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:30:43: error: no matching function for call to 'setman(const sfpi::impl_::vConst<sfpi::vFloat>&, const sfpi::vFloat&)' [-Wtemplate-body]
+   30 |     sfpi::vFloat negative_x = sfpi::setman(sfpi::vConstNeg1, in);
+      |                               ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:30:43: note: there are 2 candidates
+In file included from /opt/tenstorrent/sfpi/include/sfpi.h:546,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_A.h:18,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_A_api.h:6,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/api/compute/tile_move_copy.h:16,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/compute/eltwise_sfpu.cpp:7:
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:111:20: note: candidate 1: 'sfpi::vFloat sfpi::setman(vFloat, unsigned int)'
+  111 | sfpi_inline vFloat setman (vFloat v, unsigned man) {
+      |                    ^~~~~~
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:111:47: note: no known conversion for argument 2 from 'const sfpi::vFloat' to 'unsigned int'
+  111 | sfpi_inline vFloat setman (vFloat v, unsigned man) {
+      |                                      ~~~~~~~~~^~~
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:115:20: note: candidate 2: 'sfpi::vFloat sfpi::setman(vFloat, vUInt)'
+  115 | sfpi_inline vFloat setman (vFloat v, vUInt man) {
+      |                    ^~~~~~
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:115:44: note: no known conversion for argument 2 from 'const sfpi::vFloat' to 'sfpi::vUInt'
+  115 | sfpi_inline vFloat setman (vFloat v, vUInt man) {
+      |                                      ~~~~~~^~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h: In function 'void ckernel::sfpu::_calculate_reciprocal_internal_(int)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:98:25: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+   98 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                         ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:98:39: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+   98 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                                       ^~~~~~~~~
+      |                                       sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vInt ckernel::sfpu::_float_to_int32_for_exp_21f_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:35:28: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'?
+   35 |     sfpi::vInt man = sfpi::exman(val, sfpi::MantissaMode::ImplicitOne); // get mantissa with implicit bit (man in [1; 2])
+      |                            ^~~~~
+      |                            exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:35:45: error: 'sfpi::MantissaMode' has not been declared
+   35 |     sfpi::vInt man = sfpi::exman(val, sfpi::MantissaMode::ImplicitOne); // get mantissa with implicit bit (man in [1; 2])
+      |                                             ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_exp_21f_bf16_unsafe_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:61:89: error: 'sfpi::ExponentMode' has not been declared [-Wtemplate-body]
+   61 |     sfpi::vInt exponential_part = sfpi::exexp(sfpi::reinterpret<sfpi::vFloat>(z), sfpi::ExponentMode::NoDebias); // Extract exponent ( = 2**(integer part of val/ln2))
+      |                                                                                         ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:62:41: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'? [-Wtemplate-body]
+   62 |     sfpi::vInt fractional_part  = sfpi::exman(sfpi::reinterpret<sfpi::vFloat>(z));                         // Extract mantissa ( = leftover part, in [0; 1])
+      |                                         ^~~~~
+      |                                         exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:79:19: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+   79 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                   ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:79:33: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+   79 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                                 ^~~~~~~~~
+      |                                 sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_exp_21f_bf16_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:129:83: error: 'sfpi::ExponentMode' has not been declared [-Wtemplate-body]
+  129 |     sfpi::vInt exponential_part = exexp(sfpi::reinterpret<sfpi::vFloat>(z), sfpi::ExponentMode::NoDebias); // Extract exponent ( = 2**(integer part of val/ln2))
+      |                                                                                   ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:130:41: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'? [-Wtemplate-body]
+  130 |     sfpi::vInt fractional_part  = sfpi::exman(sfpi::reinterpret<sfpi::vFloat>(z));                   // Extract mantissa ( = leftover part, in [0; 1])
+      |                                         ^~~~~
+      |                                         exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:147:19: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                   ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:147:33: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                                 ^~~~~~~~~
+      |                                 sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_exp_fp32_accurate_unsafe_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:236:47: error: 'sfpi::ExponentMode' has not been declared
+  236 |     sfpi::vInt p_exp   = sfpi::exexp(p, sfpi::ExponentMode::NoDebias);
+      |                                               ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_binary_power_21f_(sfpi::vFloat, sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:101:28: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'? [-Wtemplate-body]
+  101 |     sfpi::vInt zif = sfpi::exman(sfpi::reinterpret<sfpi::vFloat>(z));   // Note: z & 0x007fffff in paper
+      |                            ^~~~~
+      |                            exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:147:19: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                   ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:147:33: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                                 ^~~~~~~~~
+      |                                 sFloat16b
+ (assert.hpp:104)
+2026-05-25 13:13:44.526 | critical |          Always | TT_THROW: Failed to generate binaries for eltwise_sfpu TT_THROW @ /project/third_party/tt-mlir/src/tt-mlir/third_party/tt-metal/src/tt-metal/tt_metal/jit_build/build.cpp:62: tt::exception
+info:
+trisc0 build failed. Log: In file included from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:9,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_rpow.h:8,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/llk_math_eltwise_unary_sfpu_rpow.h:9,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/api/compute/eltwise_unary/rpow.h:8,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/compute/eltwise_sfpu.cpp:12,
+                 from ../chlkc_unpack.cpp:3,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/common/chlkc_list.h:26,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/firmware/src/tt-1xx/trisck.cc:13:
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h: In function 'sfpi::vInt _float_to_int32_positive_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h:21:42: error: 'sfpi::MantissaMode' has not been declared
+   21 |         sfpi::vInt man = exman(in, sfpi::MantissaMode::ImplicitOne);
+      |                                          ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h:21:26: error: 'exman' was not declared in this scope; did you mean 'man'?
+   21 |         sfpi::vInt man = exman(in, sfpi::MantissaMode::ImplicitOne);
+      |                          ^~~~~
+      |                          man
+In file included from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:8,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:14,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:11:
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h: In function 'void ckernel::sfpu::_calculate_rsqrt_compat_(int)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:115:25: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  115 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                         ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:115:39: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  115 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                                       ^~~~~~~~~
+      |                                       sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h: In function 'void ckernel::sfpu::_calculate_reciprocal_compat_(int)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:148:25: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  148 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                         ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_rsqrt_compat.h:148:39: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  148 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                                       ^~~~~~~~~
+      |                                       sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_reciprocal_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:30:43: error: no matching function for call to 'setman(const sfpi::impl_::vConst<sfpi::vFloat>&, const sfpi::vFloat&)' [-Wtemplate-body]
+   30 |     sfpi::vFloat negative_x = sfpi::setman(sfpi::vConstNeg1, in);
+      |                               ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:30:43: note: there are 2 candidates
+In file included from /opt/tenstorrent/sfpi/include/sfpi.h:546,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_A.h:18,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_A_api.h:6,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/inc/api/compute/tile_move_copy.h:16,
+                 from /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/compute/eltwise_sfpu.cpp:7:
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:111:20: note: candidate 1: 'sfpi::vFloat sfpi::setman(vFloat, unsigned int)'
+  111 | sfpi_inline vFloat setman (vFloat v, unsigned man) {
+      |                    ^~~~~~
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:111:47: note: no known conversion for argument 2 from 'const sfpi::vFloat' to 'unsigned int'
+  111 | sfpi_inline vFloat setman (vFloat v, unsigned man) {
+      |                                      ~~~~~~~~~^~~
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:115:20: note: candidate 2: 'sfpi::vFloat sfpi::setman(vFloat, vUInt)'
+  115 | sfpi_inline vFloat setman (vFloat v, vUInt man) {
+      |                    ^~~~~~
+/opt/tenstorrent/sfpi/include/sfpi_lib.h:115:44: note: no known conversion for argument 2 from 'const sfpi::vFloat' to 'sfpi::vUInt'
+  115 | sfpi_inline vFloat setman (vFloat v, vUInt man) {
+      |                                      ~~~~~~^~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h: In function 'void ckernel::sfpu::_calculate_reciprocal_internal_(int)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:98:25: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+   98 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                         ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_recip.h:98:39: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+   98 |             out = sfpi::convert<sfpi::vFloat16b>(out, sfpi::RoundMode::NearestEven);
+      |                                       ^~~~~~~~~
+      |                                       sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vInt ckernel::sfpu::_float_to_int32_for_exp_21f_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:35:28: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'?
+   35 |     sfpi::vInt man = sfpi::exman(val, sfpi::MantissaMode::ImplicitOne); // get mantissa with implicit bit (man in [1; 2])
+      |                            ^~~~~
+      |                            exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:35:45: error: 'sfpi::MantissaMode' has not been declared
+   35 |     sfpi::vInt man = sfpi::exman(val, sfpi::MantissaMode::ImplicitOne); // get mantissa with implicit bit (man in [1; 2])
+      |                                             ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_exp_21f_bf16_unsafe_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:61:89: error: 'sfpi::ExponentMode' has not been declared [-Wtemplate-body]
+   61 |     sfpi::vInt exponential_part = sfpi::exexp(sfpi::reinterpret<sfpi::vFloat>(z), sfpi::ExponentMode::NoDebias); // Extract exponent ( = 2**(integer part of val/ln2))
+      |                                                                                         ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:62:41: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'? [-Wtemplate-body]
+   62 |     sfpi::vInt fractional_part  = sfpi::exman(sfpi::reinterpret<sfpi::vFloat>(z));                         // Extract mantissa ( = leftover part, in [0; 1])
+      |                                         ^~~~~
+      |                                         exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:79:19: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+   79 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                   ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:79:33: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+   79 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                                 ^~~~~~~~~
+      |                                 sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_exp_21f_bf16_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:129:83: error: 'sfpi::ExponentMode' has not been declared [-Wtemplate-body]
+  129 |     sfpi::vInt exponential_part = exexp(sfpi::reinterpret<sfpi::vFloat>(z), sfpi::ExponentMode::NoDebias); // Extract exponent ( = 2**(integer part of val/ln2))
+      |                                                                                   ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:130:41: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'? [-Wtemplate-body]
+  130 |     sfpi::vInt fractional_part  = sfpi::exman(sfpi::reinterpret<sfpi::vFloat>(z));                   // Extract mantissa ( = leftover part, in [0; 1])
+      |                                         ^~~~~
+      |                                         exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:147:19: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                   ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:147:33: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                                 ^~~~~~~~~
+      |                                 sFloat16b
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_exp_fp32_accurate_unsafe_(sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_exp.h:236:47: error: 'sfpi::ExponentMode' has not been declared
+  236 |     sfpi::vInt p_exp   = sfpi::exexp(p, sfpi::ExponentMode::NoDebias);
+      |                                               ^~~~~~~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h: In function 'sfpi::vFloat ckernel::sfpu::_sfpu_binary_power_21f_(sfpi::vFloat, sfpi::vFloat)':
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:101:28: error: 'exman' is not a member of 'sfpi'; did you mean 'exman9'? [-Wtemplate-body]
+  101 |     sfpi::vInt zif = sfpi::exman(sfpi::reinterpret<sfpi::vFloat>(z));   // Note: z & 0x007fffff in paper
+      |                            ^~~~~
+      |                            exman9
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:147:19: error: 'convert' is not a member of 'sfpi' [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                   ^~~~~~~
+/home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h:147:33: error: 'vFloat16b' is not a member of 'sfpi'; did you mean 'sFloat16b'? [-Wtemplate-body]
+  147 |         y = sfpi::convert<sfpi::vFloat16b>(y, sfpi::RoundMode::NearestEven);
+      |                                 ^~~~~~~~~
+      |                                 sFloat16b
+
+backtrace:
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x42e298) [0x7f1cd2b86298]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x74587c) [0x7f1cd2e9d87c]
+ --- tt::tt_metal::JitBuildState::compile_one(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, tt::tt_metal::JitBuildSettings const*, unsigned long) const
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x760b38) [0x7f1cd2eb8b38]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x760abe) [0x7f1cd2eb8abe]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x436b4f) [0x7f1cd2b8eb4f]
+ --- /lib/x86_64-linux-gnu/libc.so.6(+0x99ee8) [0x7f1dd55f7ee8]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x4369a9) [0x7f1cd2b8e9a9]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x76090e) [0x7f1cd2eb890e]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x5b8715) [0x7f1cd2d10715]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x5b7220) [0x7f1cd2d0f220]
+ --- /home/delaunap/workspace/tenstorrent_tests/tt-blacksmith/env/xla_env/lib/python3.12/site-packages/pjrt_plugin_tt/lib64/libtt_metal.so(+0x5b6708) [0x7f1cd2d0e708]
+ --- /lib/x86_64-linux-gnu/libstdc++.so.6(+0xdc253) [0x7f1dbe1b5253]
+ --- /lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7f1dd55f2ac3]
+ --- /lib/x86_64-linux-gnu/libc.so.6(+0x1268d0) [0x7f1dd56848d0]
+ (assert.hpp:104)
+2026-05-25 13:13:44 | ERROR | Training failed with error: Bad StatusOr access: INTERNAL: Error code: 13
