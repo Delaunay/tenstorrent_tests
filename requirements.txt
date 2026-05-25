@@ -1,0 +1,6 @@
+--extra-index-url https://pypi.eng.aws.tenstorrent.com/
+
+tt-forge
+pjrt-plugin-tt @ https://pypi.eng.aws.tenstorrent.com/pjrt-plugin-tt/pjrt_plugin_tt-1.1.0-cp312-cp312-manylinux_2_34_x86_64.whl
+torch @ https://download.pytorch.org/whl/cpu/torch-2.9.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl
+vllm-tt @ https://pypi.eng.aws.tenstorrent.com/vllm-tt/vllm_tt-1.1.0-cp312-cp312-linux_x86_64.whl
